@@ -31,12 +31,12 @@
     font-size: 1.5rem;
     color: #525252;
 }
-@media(max-width:1000px){
+@media(max-width:1000px){/*quebras especificas*/
     .introducao h1{
         font-size: 3rem;
     }
 }
-@media (max-width:800px) {
+@media (max-width:800px) {/*quebras especificas*/
     .introducao{
         grid-template-columns: 1fr 1fr;
         gap: 4.5rem;
@@ -50,7 +50,7 @@
         left: 0px;
     }
 }
-@media (max-width:400px){
+@media (max-width:400px){/*quebras especificas*/
     .introducao img{
         display: none;
 
